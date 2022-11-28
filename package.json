@@ -1,0 +1,29 @@
+{
+  "name": "tt-sinhronick",
+  "version": "1.0.0",
+  "description": "simple webpack",
+  "main": "main.js",
+  "dependencies": {
+    "eslint": "^8.28.0",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0"
+  },
+  "scripts": {
+    "biuld": "cross-env NODE_ENV=production webpack --mode production",
+    "dev": "cross-env NODE_ENV=development webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BogdanFdVlpr/tt-sinhronick.git"
+  },
+  "author": "Bohdan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BogdanFdVlpr/tt-sinhronick/issues"
+  },
+  "homepage": "https://github.com/BogdanFdVlpr/tt-sinhronick#readme"
+}

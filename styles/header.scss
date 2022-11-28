@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 0;
+
+  @include onTablet {
+    flex-direction: row;
+  }
+}
